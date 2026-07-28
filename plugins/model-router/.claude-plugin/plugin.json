@@ -1,0 +1,11 @@
+{
+  "name": "model-router",
+  "displayName": "Model Router",
+  "version": "0.2.1",
+  "description": "Cost-tiered model routing for Claude Code: pinned role agents (designer/coder/reviewer=Opus 5, auditor=Opus 5 max, searcher=Sonnet 5, mechanic/Explore=Haiku 4.5, marathon=Fable 5 for long-horizon autonomy only) plus a session-start routing policy with an evidence-based Fable trigger and effort-first escalation ladder.",
+  "author": {
+    "name": "esterhuizens"
+  },
+  "license": "MIT",
+  "keywords": ["model-routing", "cost", "subagents", "usage-limits"]
+}

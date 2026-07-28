@@ -1,0 +1,16 @@
+{
+  "name": "esterhuizens",
+  "owner": {
+    "name": "esterhuizens"
+  },
+  "description": "Personal Claude Code plugins",
+  "plugins": [
+    {
+      "name": "model-router",
+      "source": "./plugins/model-router",
+      "description": "Cost-tiered model routing: pinned role agents (Fable/Opus/Sonnet/Haiku by task) plus a session-start routing policy.",
+      "category": "productivity",
+      "tags": ["cost", "model-routing", "subagents"]
+    }
+  ]
+}
