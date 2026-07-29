@@ -1,6 +1,6 @@
-# esterhuizens Claude Code plugins
+# claude-model-router
 
-Personal plugin marketplace. Currently one plugin: **model-router**.
+Cost-tiered model routing for Claude Code. A **native plugin** — no proxy, no extra process — that dispatches each kind of work to the right Claude tier via pinned subagents and a session-start routing policy. (Not to be confused with proxy-based routers, which rewrite API traffic to route across vendors; this routes between Claude tiers inside Claude Code itself.)
 
 ## model-router
 
@@ -26,7 +26,7 @@ Rationale (researched & adversarially verified July 2026, post-Opus-5-launch): O
 ## Install on any machine
 
 ```
-/plugin marketplace add <github-owner>/claude-plugins
+/plugin marketplace add esterhuizen/claude-model-router
 /plugin install model-router@esterhuizens
 ```
 
@@ -35,7 +35,7 @@ Or headless: `claude plugin install model-router@esterhuizens`.
 ## Try locally without installing
 
 ```
-claude --plugin-dir /path/to/claude-plugins/plugins/model-router
+claude --plugin-dir /path/to/claude-model-router/plugins/model-router
 ```
 
 ## Caveats
